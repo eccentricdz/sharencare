@@ -6,14 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies" :
-  {
+  "dependencies" :{
 	"express" : "*",
 	"multiparty" : "*",
 	"jszip" : "*",
-	"mysql" : "*",
-  },
-  "repository": "",
+	"mysql" : "*"},
+  "repository": "https://github.com/eccentricdz/sharencare.git",
   "author": "Rahul Agarwal",
   "license": "BSD"
 }
