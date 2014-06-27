@@ -1,0 +1,19 @@
+{
+  "name": "sharencare",
+  "version": "0.0.0",
+  "description": "A simple file sharing app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies" :
+  {
+	"express" : "*",
+	"multiparty" : "*",
+	"jszip" : "*",
+	"mysql" : "*",
+  },
+  "repository": "",
+  "author": "Rahul Agarwal",
+  "license": "BSD"
+}

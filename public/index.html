@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Share n Care</title>
+	<!-- <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'> -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="icomoon/style.css">
+	<script src="js/prefixfree.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="js/snc.js"></script>
+</head>
+<body>
+	<div class="container">
+		<a href="/" class='home'><img src="/logo.png" alt="Share N Care logo" id="logo"></a>
+		<div class="progress-bar progress" id="top-progress"></div>
+		<div class="progress-bar progress" id="bot-progress"></div>
+		<p class="progress progress-value inactive"><span id="prog-val">10%</span> &nbsp;&nbsp;<span class='icon-spinner'></span></p>
+		<input id="my-file" type="file" multiple name="my-file"></input>
+		<img src="center.png" alt="center image" id="center">
+		<div class="dnd-area"></div>
+				<div class="contents">
+				<ul class="file-list">
+					<!-- <li class="file-preview"><span class="icon-image"></span><span class="file-title">My Image.jpg<p class="file-size">3453 bytes</p></span></li>
+					<li class="file-preview"><span class="icon-headphones"></span><span class="file-title">My Music.mp3<p class="file-size">345323 bytes</p></span></li> -->
+				</ul>
+				<button id="upload" class="inactive"><span class="icon-cloud-upload"></span><span class="upload-title">Upload</span></button>
+				</div>
+				<div class="success">
+					<span class="icon-checkmark"></span>
+					<h1>Your file(s) have been successfully uploaded!</h1>
+					<p>Share your files by simpling sharing the link shown below.</p>
+					<div class="link"><span class="icon-link"></span>http://localhost:3000/<span id="link">djiCKw<span></div>
+				</div>
+	</div>	
+</body>
+</html>
