@@ -1,4 +1,5 @@
 sharencare
 ==========
 
-A simple file sharing app made in node.js using MySQL
+A simple file sharing app made in with the backend built with Node.js.
+The database used is MySQL.
